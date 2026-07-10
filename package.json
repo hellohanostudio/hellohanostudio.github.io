@@ -1,8 +1,0 @@
-{
-  "name": "hanostudio-site",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "build": "rm -rf dist && mkdir -p dist/.openai && cp index.js index.html hano-128.png hano-mark.svg dist/ && cp .openai/hosting.json dist/.openai/hosting.json"
-  }
-}
